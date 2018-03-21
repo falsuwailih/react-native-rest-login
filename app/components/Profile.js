@@ -40,7 +40,7 @@ export default class Profile extends React.Component {
       <View style={styles.container}>
         <Text style={{ color: "white" }}>Welcome {userValue}</Text>
         <TouchableOpacity style={styles.btn} onPress={this.logout}>
-          <Text>Logout</Text>
+          <Text>Logodut</Text>
         </TouchableOpacity>
       </View>
     );
